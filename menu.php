@@ -1,6 +1,6 @@
 <div id="menu">
 	<div id="menuLeft">
-		<img src="./img/logo.png" alt ="logo">
+		<!--<img src="./img/logo.png" alt ="logo">-->
 	</div>
 	<div id="menuRight">
 		<ul>

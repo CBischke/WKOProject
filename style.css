@@ -1,15 +1,15 @@
 html {
 	font-family: Trebuchet MS;
-	background-color: #E8E8E8;
-	color: #333333;
+	background-color: #3E454C;
+	color: #3E454C;
 	text-align: justify;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	color: #588C7E;
+	color: #FF7F66;
 }
 a {
-	color: #D96459;
+	color: #2185C5;
 	text-decoration: none;
 }
 #bodyContainer {
@@ -22,8 +22,8 @@ a {
 	border-style: solid;
 	border-radius: 10px;
 	border-width: 15px;
-	border-color: #588C7E;
-	background: #588C7E;
+	border-color: #FFF6E5;
+	background: #FFF6E5;
 	float: left;
 }
 #menuLeft {
@@ -46,14 +46,14 @@ a {
 		border-style: solid;
 		border-radius: 5px;
 		border-width: 5px;
-		border-color: #D96459;
+		border-color: #2185C5;
 
 		text-align: center;
 		font-size: 18px;
 		text-decoration: none;
 		color: #333333;
 
-		background-color: #D96459;
+		background-color: #2185C5;
 		display: block;
 		width: 95px;
 	}
@@ -77,14 +77,15 @@ a {
 #mainBody {
 	width: 900px;
 	margin-top: 25px;
+	margin-bottom: 25px;
 
-	/*border-style: solid;
+	border-style: solid;
 	border-radius: 10px;
 	border-width: 15px;
-	border-color: #F2E394;*/
+	border-color: #FFF6E5;
 
 	/*background-color: #F2E394;*/
-	background-color: #E8E8E8;
+	background-color: #FFF6E5;
 	float: left;
 }
 .mainCenter {
@@ -120,14 +121,12 @@ a {
 	border-style: solid;
 	border-radius: 10px;
 	border-width: 15px;
-	border-color: #588C7E;
-	background: #588C7E;
+	border-color: #FFF6E5;
+	background: #FFF6E5;
 	font-size: 10px;
 	float: left; 
 }
-#secret{
-	color: #588C7E;
-}
+
 .question{
 	color: #588C7E;
 	font-style: italic;
