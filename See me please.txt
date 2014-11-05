@@ -1,11 +1,4 @@
 Chris
-<<<<<<< HEAD
-<<<<<<< HEAD
 Asiqur
-=======
-Adam
->>>>>>> origin/master
-=======
 Adam
 Ryan
->>>>>>> 413358fc1d0185271f7e2313d2fc76bebcc40526
