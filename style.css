@@ -1,0 +1,160 @@
+html {
+	font-family: Trebuchet MS;
+	background-color: #E8E8E8;
+	color: #333333;
+	text-align: justify;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #588C7E;
+}
+a {
+	color: #D96459;
+	text-decoration: none;
+}
+#bodyContainer {
+	width: 900px;
+	margin: auto;
+	/*background-color: #F2AE72;*/
+}
+#menu {
+	width: 900px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 15px;
+	border-color: #588C7E;
+	background: #588C7E;
+	float: left;
+}
+#menuLeft {
+	width: 256px;
+	margin: auto;
+	float: left;
+}
+#menuRight {
+	width: 634px;
+	margin: auto;
+	float: right;
+}
+	#menuRight li{
+		list-style-type: none;
+		float: left;
+		margin:  auto 5px 10px 5px;
+		display: inline;
+	}
+	#menuRight a{
+		border-style: solid;
+		border-radius: 5px;
+		border-width: 5px;
+		border-color: #D96459;
+
+		text-align: center;
+		font-size: 18px;
+		text-decoration: none;
+		color: #333333;
+
+		background-color: #D96459;
+		display: block;
+		width: 95px;
+	}
+	#menuRight a:hover{
+		border-style: solid;
+		border-radius: 5px;
+		border-width: 5px;
+		border-color: #8C4646;
+
+		text-align: center;
+		text-decoration: none;
+		color: #333333;
+
+		background-color: #8C4646;
+		display: block;
+		width: 95px;
+	}
+.clear {
+	clear: both;
+}
+#mainBody {
+	width: 900px;
+	margin-top: 25px;
+
+	/*border-style: solid;
+	border-radius: 10px;
+	border-width: 15px;
+	border-color: #F2E394;*/
+
+	/*background-color: #F2E394;*/
+	background-color: #E8E8E8;
+	float: left;
+}
+.mainCenter {
+	width: 600px;
+	margin: auto;
+	text-align: center;
+}
+.mainLeft {
+	width: 400px;
+	margin: auto;
+	float: left;
+}
+	.mainLeft h1,h2,h3,h4,h5,h6{
+		text-align: center;
+	}
+.mainRight {
+	text-align: center;
+	width: 400px;
+	margin: auto;
+	float: right;
+}
+		.mainRight h1,h2,h3,h4,h5,h6{
+		text-align: center;
+	}
+.imp {
+	font-size: 26px;
+	color: black;
+	font-style: italic;
+}
+#footer {
+	text-align: center;
+	width: 900px;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 15px;
+	border-color: #588C7E;
+	background: #588C7E;
+	font-size: 10px;
+	float: left; 
+}
+#secret{
+	color: #588C7E;
+}
+.question{
+	color: #588C7E;
+	font-style: italic;
+	font-size: 21px;
+	margin-top: 50px;
+	text-align: left;
+
+}
+.answer {
+	font-style: italic;
+	text-align: left;
+	font-size: 14px;
+}
+.answerFAIL {
+	font-style: italic;
+	color: red;
+	text-align: left;
+	font-size: 14px;
+}
+
+.answerPASS {
+	font-style: italic;
+	color: green;
+	text-align: left;
+	font-size: 14px;
+}
+
+#error {
+	color: red;
+}
