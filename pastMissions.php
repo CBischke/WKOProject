@@ -32,14 +32,19 @@ else
 		
 		<div class="clear"></div>
 		<div id="mainBody">
+			<div class="menuButtonContainer">
+				<div class="menuButtons">
+					<ul>
+						<li><a href = "./pastMissions.php?mission=Duna">Duna</a></li> 
+						<li><a href = "./pastMissions.php?mission=Jool">Jool</a></li>
+						<li><a href = "./pastMissions.php?mission=Eve">Eve</a></li> 
+						<li><a href = "./pastMissions.php?mission=TacoBell">Taco Bell</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
 			<div class="mainCenter">
-				<h2>Past Missions</h2>
-				
-				<p><a href = "./pastMissions.php?mission=Duna">Duna</a> | 
-					<a href = "./pastMissions.php?mission=Jool">Jool</a> | 
-					<a href = "./pastMissions.php?mission=Eve">Eve</a> | 
-					<a href = "./pastMissions.php?mission=TacoBell">Taco Bell</a> 
-				</p>
+			<h2>Past Missions</h2>
 			</div>
 			<?php if($isMissionSelected) {?>
 				<div class="mainLeft">

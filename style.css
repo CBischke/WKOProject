@@ -26,27 +26,41 @@ a {
 	background: #FFF6E5;
 	float: left;
 }
-#menuLeft {
-	width: 256px;
-	margin: auto;
+#menuLogo {
+	width: 300px;
 	float: left;
 }
-#menuRight {
-	width: 634px;
-	margin: auto;
-	float: right;
+
+.menuButtonContainer{
+	width: 900px;
+	float: left;
+	
 }
-	#menuRight li{
+.menuButtons {
+	width: 850px;
+	margin: auto;
+
+}
+	.menuButtons ul{
+		margin: auto;
+		display: table;
+	    table-layout: fixed;
+		overflow: hidden;
+		overflow: hidden;
+	}
+	.menuButtons li{
 		list-style-type: none;
 		float: left;
-		margin:  auto 5px 10px 5px;
+		margin: 10px;
 		display: inline;
 	}
-	#menuRight a{
+	.menuButtons a{
 		border-style: solid;
 		border-radius: 5px;
 		border-width: 5px;
 		border-color: #2185C5;
+
+		padding: 2px;
 
 		text-align: center;
 		font-size: 18px;
@@ -54,68 +68,25 @@ a {
 		color: #333333;
 
 		background-color: #2185C5;
-		display: block;
-		width: 95px;
+		/*display: block;*/
+		width: auto;
 	}
-	#menuRight a:hover{
+	.menuButtons a:hover{
 		border-style: solid;
 		border-radius: 5px;
 		border-width: 5px;
 		border-color: #8C4646;
+
+		padding: 2px;
 
 		text-align: center;
 		text-decoration: none;
 		color: #333333;
 
 		background-color: #8C4646;
-		display: block;
-		width: 95px;
+		/*display: block;*/
 	}
-#subMenu{
-	width: 600px;
-	margin: auto;
-	border-style: solid;
-	border-radius: 10px;
-	border-width: 15px;
-	border-color: #FFF6E5;
-	background: #FFF6E5;
-	float: left;
-}
-	#subMenu li{
-		list-style-type: none;
-		float: left;
-		margin:  auto 10px auto 10px;
-		display: inline;
-	}
-	#subMenu a{
-		border-style: solid;
-		border-radius: 5px;
-		border-width: 5px;
-		border-color: #2185C5;
 
-		text-align: center;
-		font-size: 18px;
-		text-decoration: none;
-		color: #333333;
-
-		background-color: #2185C5;
-		display: block;
-		width: 95px;
-	}
-	#subMenu a:hover{
-		border-style: solid;
-		border-radius: 5px;
-		border-width: 5px;
-		border-color: #8C4646;
-
-		text-align: center;
-		text-decoration: none;
-		color: #333333;
-
-		background-color: #8C4646;
-		display: block;
-		width: 95px;
-	}
 .clear {
 	clear: both;
 }
@@ -136,7 +107,6 @@ a {
 .mainCenter {
 	width: 600px;
 	margin: auto;
-	/*text-align: center;*/
 }
 .mainLeft {
 	width: 400px;
