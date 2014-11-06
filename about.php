@@ -13,6 +13,15 @@
 
 		<div class="clear"></div>
 		<div id="mainBody">
+		<div class="menuButtonContainer">
+			<div class="menuButtons">
+				<ul>
+					<li><a href = "./about.php?p=history">History</a></li> 
+					<li><a href = "./about.php?p=team">Team</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
 		<div class="mainLeft">
 				<h3>This is us</h3>
 				<p>
