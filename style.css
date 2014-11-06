@@ -30,6 +30,10 @@ a {
 	width: 300px;
 	float: left;
 }
+#menuRight {
+	width: auto;
+	float: right;
+}
 
 .menuButtonContainer{
 	width: 900px;
@@ -45,7 +49,6 @@ a {
 		margin: auto;
 		display: table;
 	    table-layout: fixed;
-		overflow: hidden;
 		overflow: hidden;
 	}
 	.menuButtons li{
