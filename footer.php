@@ -1,4 +1,4 @@
 <div id="footer">
-	<p>We are not a real company. I don't even get paid. I am a webdeveloper that was forced against my will to develop this website. I am currently in the basement of the CEOs mother's house. Please help. It smells like burnt tomato soup. If you are still reading this, I commend you. No, I applaud  you. Why are you still reading this? Obviously I am not going anywhere with this though. Placing a random &copy; sign makes this footer look official. Yeah. That looks good. &copy;
-	<span id="secret">Oh good. You found this line. Please stop reading the footer. I am running out of things to talk about.</span>
+	<p>THIS IS A FOOTER</p>
+	<span id="secret">THIS IS A SPAN IN A FOOTER</span>
 </div>
