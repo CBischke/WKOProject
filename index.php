@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="util.js"></script>
+	
+	<script src="../parser_rules/advanced.js" ></script>
+    <script src="../dist/wysihtml5-0.3.0.js" ></script>
 </head>
 <body>
 	<div id="bodyContainer">

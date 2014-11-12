@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Open source rich text editor based on HTML5 and the progressive-enhancement approach. Uses a sophisticated security concept and aims to generate fully valid HTML5 markup by preventing unmaintainable tag soups and inline styles.">
-    <title>wysihtml5 - A better approach to rich text editing</title>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css">
-    <link rel="stylesheet" href="stylesheet.css">
-    <script src="./parser_rules/advanced.js" ></script>
+<head>
+	<title>Chris Bischke -- Homework 2</title>
+	<meta charset="UTF-8">
+	
+	<script src="util.js"></script>
+	
+
+		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="./parser_rules/advanced.js" ></script>
     <script src="./dist/wysihtml5-0.3.0.js" ></script>
-  </head>
-  <body>
-    <a href="http://github.com/xing/wysihtml5" class="fork"><img src="https://a248.e.akamai.net/camo.github.com/abad93f42020b733148435e2cd92ce15c542d320/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub"></a>
-    <p class="get-started"><strong>Get started:</strong> <a href="#">Download</a> the latest version and read the <a href="#">introduction</a></p>
-    <div id="wysihtml5-editor-toolbar">
-      <header>
+</head>
+<body>
+	
+	<div id="wysihtml5-editor-toolbar">
+	      <header>
         <ul class="commands">
           <li data-wysihtml5-command="bold" title="Make text bold (CTRL + B)" class="command"></li>
           <li data-wysihtml5-command="italic" title="Make text italic (CTRL + I)" class="command"></li>
@@ -56,38 +58,63 @@
         <a data-wysihtml5-dialog-action="save">OK</a>&nbsp;<a data-wysihtml5-dialog-action="cancel">Cancel</a>
       </div>
     </div>
-    
+	
+	
+	
+	
+	
+	
 	<form action="testpage.php" method="post">
     <section>
       <textarea id="wysihtml5-editor" name="wysihtml5-textarea" spellcheck="false" wrap="off" autofocus placeholder="Enter something ...">
-<h1>WYSIHTML5 - A better approach to rich text editing</h1>
-<p>wysihtml5 is an <span class="wysiwyg-color-green"><a href="https://github.com/xing/wysihtml5">open source</a></span> rich text editor based on HTML5 technology and the progressive-enhancement approach.
-It uses a sophisticated security concept and aims to generate fully valid HTML5 markup by preventing unmaintainable tag soups and inline styles.</p>
-<h2>Features</h2>
-<ul>
-  <li>It's fast and lightweight (smaller than TinyMCE, Aloha, ...)</li>
-  <li>Auto-linking of urls as-you-type</li>
-  <li>Generates valid and semantic HTML5 markup (even when the content is pasted from MS Word)</li>
-  <li>Uses class names instead of inline styles</li>
-  <li>Unifies line break handling across browsers</li>
-  <li>Uses sandboxed iframes in order to prevent identity theft through XSS</li>
-  <li>Speech-input for Chrome</li>
-  <li>No jQuery required</li>
-</ul>
-<h2>Browser Support</h2>
-<ul>
-  <li><img src="img/icn_firefox.png" width="24" height="24"> Firefox 3.5+</li>
-  <li><img src="img/icn_chrome.png" width="24" height="24"> Chrome</li>
-  <li><img src="img/icn_internet_explorer.png" width="24" height="24"> IE 8+</li>
-  <li><img src="img/icn_safari.png" width="24" height="24"> Safari 4+</li>
-  <li><img src="img/icn_ios.png" width="24" height="24"> Safari on iOS 5+</li>
-  <li><img src="img/icn_opera.png" width="24" height="24"> Opera 11+</li>
-  <li><strong>Graceful degradation:</strong> Unsupported browsers will get a <i>&amp;lt;textarea&amp;gt;</i></li>
-</ul>
-      </textarea>
+	<div id="bodyContainer">
+
+		<?php include 'menu.php';?>
+		
+		<div class="clear"></div>
+		<div id="mainBody">
+			<div class="mainCenter">
+				<h2>Whole Kids Outreach</h2>
+				<img src="./img/homeImg.jpg" alt="A beautiful rocket explosion." id="img">
+				<p>
+					Yes. We are a make believe space company living in a real virtual made up universe. You may ask, what universe? And to that question is an easy answer: <a href="https://kerbalspaceprogram.com/" target="New Window">The Kerbal Space Program Universe!</a> 
+					<br>
+					Here at Periapsis Space Program we design, build, test, crash and barely fly interstellar rockets! Most of our scientists have gone to school and have degrees in the 3rd burn, so we might not know calculus, but we certainly know how to guess and check. 
+				</p>
+			</div>
+			<div class="mainLeft">
+				<h3>Dedicated to space. Dedicated to you.</h3>
+				<p>
+					Do you need a package delivered to the moon? If yes, just call us! Is this delivery time sensitive? If yes, probably call someone else!
+				</p>
+				<p>
+					Our mom's have said that,
+				</p>
+				<p>
+					<span class="imp">"We have been the world's leader in interstellar rocketry for the past twenty years." </span> 
+				</p>
+				<p>
+					Wow! Thats a long time. Imagine where we will be in the next twenty years -- maybe the company headquarters will finally invest in a coffee machine.
+				</p>
+			</div>
+			<div class="mainRight">
+				<h3>Our Company Values:</h3>
+				<p>Space</p>
+				<p>Rockets</p>
+				<p>Explosions</p>
+				<p>Your Money</p>
+				<p>Therapy</p>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<?php include 'footer.php';?>
+
+	</div>
+	   </textarea>
    </section>
    <input type="submit" value="Submit form">
    </form>
+   
     <script>
 		
       var editor = new wysihtml5.Editor("wysihtml5-editor", {
@@ -102,5 +129,5 @@ It uses a sophisticated security concept and aims to generate fully valid HTML5 
         composer.selection.selectNode(editor.composer.element.querySelector("h1"));
       });
     </script>
-  </body>
+</body>
 </html>
