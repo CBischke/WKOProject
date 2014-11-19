@@ -14,6 +14,10 @@
 </head>
 <body>
 	
+		<form action="testpage.php" method="post">
+    
+      
+	<div id="bodyContainer">
 	<div id="wysihtml5-editor-toolbar">
 	      <header>
         <ul class="commands">
@@ -64,11 +68,8 @@
 	
 	
 	
-	<form action="testpage.php" method="post">
-    <section>
-      <textarea id="wysihtml5-editor" name="wysihtml5-textarea" spellcheck="false" wrap="off" autofocus placeholder="Enter something ...">
-	<div id="bodyContainer">
 
+ <textarea id="wysihtml5-editor" name="wysihtml5-textarea" spellcheck="false" wrap="off" autofocus placeholder="Enter something ...">
 		<?php include 'menu.php';?>
 		
 		<div class="clear"></div>
@@ -108,10 +109,10 @@
 		</div>
 		<div class="clear"></div>
 		<?php include 'footer.php';?>
-
+	</textarea>
 	</div>
-	   </textarea>
-   </section>
+	   
+   
    <input type="submit" value="Submit form">
    </form>
    

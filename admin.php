@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -57,11 +58,11 @@
       </div>
     </div>
     
-	<form action="testpage.php" method="post">
+	<form action="example.php" method="post">
     <section>
       <textarea id="wysihtml5-editor" name="wysihtml5-textarea" spellcheck="false" wrap="off" autofocus placeholder="Enter something ...">
 <h1>WYSIHTML5 - A better approach to rich text editing</h1>
-<p>wysihtml5 is an <span class="wysiwyg-color-green"><a href="https://github.com/xing/wysihtml5">open source</a></span> rich text editor based on HTML5 technology and the progressive-enhancement approach.
+<p>wysihtml5 is a rich text editor based on HTML5 technology and the progressive-enhancement approach.
 It uses a sophisticated security concept and aims to generate fully valid HTML5 markup by preventing unmaintainable tag soups and inline styles.</p>
 <h2>Features</h2>
 <ul>
