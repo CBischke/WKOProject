@@ -14,10 +14,10 @@
 		<div class="menuButtons">
 			<ul>
 				<li><a href="index.php">Home</a></li>
-				<li><a href="about.php">About</a></li>
-				<li><a href="programs.php">Program & Services</a></li>
-				<li><a href="parentsKids.php">Parents and Kids</a></li>
-				<li><a href="helpNow.php">Help Now</a></li>
+				<li><a href="wko.php?p=History">About</a></li>
+				<li><a href="wko.php?p=HomePrograms">Program & Services</a></li>
+				<li><a href="wko.php?p=Parents">Parents and Kids</a></li>
+				<li><a href="wko.php?p=Volunteer">Help Now</a></li>
 				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</div>
