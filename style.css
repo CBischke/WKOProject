@@ -52,6 +52,12 @@ a {
 	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3);
 	box-shadow: inset 0px 1px 0px #2185C5, 0px 5px 0px 0px #165982, 0px 10px 5px #999;
 }
+#menuRight button:hover{
+border:1px solid #C52121;
+background-color: #C52121;
+text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3);
+box-shadow: inset 0px 1px 0px #C52121, 0px 5px 0px 0px #831616, 0px 10px 5px #999;
+}
 .menuButtonContainer{
 	width: 900px;
 	float: left;
