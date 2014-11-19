@@ -38,6 +38,25 @@ if(isset($_GET['page']))
 		$content = $pageInfo['Content'];
 	}
 }
+else {
+	
+	$page = 'About';
+		$con = mysql_connect('localhost', 'root', '');
+	if (!$con)
+	{
+	  die('Could not connect: ' . mysql_error());
+	}
+	//Connecting...
+	mysql_select_db("wko",$con);
+	$query = "SELECT * FROM `content` WHERE `Page` = '$page'";
+	$result = mysql_query($query, $con);
+	//the id is there, user has logged in
+	if(mysql_num_rows($result) > 0)
+	{
+		$pageInfo = mysql_fetch_array($result, MYSQL_ASSOC);
+		$content = $pageInfo['Content'];
+	}
+}
 
 
 
@@ -62,27 +81,15 @@ if(isset($_GET['page']))
 	<div id="wysihtml5-editor-toolbar">
 	      <header>
         <ul class="commands">
-          <li data-wysihtml5-command="bold" title="Make text bold (CTRL + B)" class="command"></li>
-          <li data-wysihtml5-command="italic" title="Make text italic (CTRL + I)" class="command"></li>
+          
+      
           <li data-wysihtml5-command="insertUnorderedList" title="Insert an unordered list" class="command"></li>
-          <li data-wysihtml5-command="insertOrderedList" title="Insert an ordered list" class="command"></li>
+    
           <li data-wysihtml5-command="createLink" title="Insert a link" class="command"></li>
           <li data-wysihtml5-command="insertImage" title="Insert an image" class="command"></li>
           <li data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1" title="Insert headline 1" class="command"></li>
           <li data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h2" title="Insert headline 2" class="command"></li>
-          <li data-wysihtml5-command-group="foreColor" class="fore-color" title="Color the selected text" class="command">
-            <ul>
-              <li data-wysihtml5-command="foreColor" data-wysihtml5-command-value="silver"></li>
-              <li data-wysihtml5-command="foreColor" data-wysihtml5-command-value="gray"></li>
-              <li data-wysihtml5-command="foreColor" data-wysihtml5-command-value="maroon"></li>
-              <li data-wysihtml5-command="foreColor" data-wysihtml5-command-value="red"></li>
-              <li data-wysihtml5-command="foreColor" data-wysihtml5-command-value="purple"></li>
-              <li data-wysihtml5-command="foreColor" data-wysihtml5-command-value="green"></li>
-              <li data-wysihtml5-command="foreColor" data-wysihtml5-command-value="olive"></li>
-              <li data-wysihtml5-command="foreColor" data-wysihtml5-command-value="navy"></li>
-              <li data-wysihtml5-command="foreColor" data-wysihtml5-command-value="blue"></li>
-            </ul>
-          </li>
+
           <li data-wysihtml5-command="insertSpeech" title="Insert speech" class="command"></li>
           <li data-wysihtml5-action="change_view" title="Show HTML" class="action"></li>
         </ul>
