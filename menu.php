@@ -7,7 +7,7 @@
 		<form method="get" action="donate.php">
 			<button id type="submit">DONATE</button>
 		</form>
-		<a href="https://www.facebook.com/wholekidsoutreach"><img src="./img/f-logo.png" alt ="facebook page"></a>
+		<a href="https://www.facebook.com/wholekidsoutreach"><img src="./img/f-logo.png" alt ="facebook page" height="35px" width="35px"></a>
 	</div>
 	<div class="clear"></div>
 	<div class="menuButtonContainer">

@@ -35,8 +35,9 @@ a {
 	width: auto;
 	float: right;
 }
-#menuRight form{
+#menuRight form,a{
 	display: inline;
+	vertical-align: top;
 }
 #menuRight button{
 	width:150px;
