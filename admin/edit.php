@@ -78,7 +78,14 @@ else {
 </head>
 <body>
 
+<div id="bodyContainer">
 	<?php include './menu.php';?>
+	
+	<div class="clear"></div>
+	<div id="mainBody">
+	
+	<div class="clear"></div>
+	<div class="mainCenter">
 	
 	<form action="edit.php?page=<?=$page;?>" method="post">
 	<div id="bodyContainer">
@@ -124,7 +131,9 @@ else {
    
    <input type="submit" value="Submit form" name="submit">
    </form>
-   
+   </div>
+   </div>
+   </div>
     <script>
 		
       var editor = new wysihtml5.Editor("wysihtml5-editor", {

@@ -279,7 +279,7 @@ section {
 textarea {
   font-family: "Courier New", Courier, monospace;
   width: 100%;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.4);
   height: 100%;
   border: 0;
   resize: none;

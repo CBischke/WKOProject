@@ -20,7 +20,7 @@
 				<li><a href="edit.php?page=CenterPrograms">CenterPrograms</a></li>
 				<li><a href="edit.php?page=TestimonyPrograms">TestimonyPrograms</a></li>
 				<li><a href="edit.php?page=Parents">Parents</a></li>
-				<li><a href="edit.php?page=aqwKids">Kids</a></li>
+				<li><a href="edit.php?page=Kids">Kids</a></li>
 				<li><a href="edit.php?page=Volunteer">Volunteer</a></li>
 				<li><a href="edit.php?page=Donate">Donate</a></li>
 			</ul>
