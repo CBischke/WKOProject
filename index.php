@@ -8,6 +8,21 @@
 	
 	<script src="../parser_rules/advanced.js" ></script>
     <script src="../dist/wysihtml5-0.3.0.js" ></script>
+    <script type='text/javascript' src='./slideShow/jquery-2.1.1.min.js'> </script>
+    <script type='text/javascript' src='./slideShow/jquery.cycle.all.js'> </script>
+	 <script type='text/javascript'>
+	  $('#slider').cycle({
+		  fx:         'scrollHorz',
+	      next:       '#next',
+	      prev:       '#prev',
+	      pager:      '#pager',
+	      timeout:     3000,
+		  speed:       900
+		  });
+	  </script>
+	  <link rel="stylesheet" type="text/css" href="./slideShow/style1.css">
+
+
 </head>
 <body>
 	<div id="bodyContainer">
@@ -18,7 +33,30 @@
 		<div id="mainBody">
 			<div class="mainCenter">
 				<h2>Whole Kids Outreach</h2>
-				<img src="./img/homeImg.jpg" alt="A beautiful rocket explosion." id="img">
+
+				<div id="hero">
+					<div id="slider">
+						<div class="items">
+							<img src="./slideShow/img/homeImg.jpg" alt="slide2">
+							<div class="info">
+								<h2>test</h2>
+								<p>info</p>
+						     </div> <!--info -->
+					    </div> <!--item -->
+								
+						<div class="items">
+					
+							<img src="./slideShow/img/homeImg.jpg" alt="slide2" >
+					
+							<div class="info">
+								<h2>test</h2>
+								<p>more info</p>
+							</div> <!--info -->
+						</div> <!--item -->
+					</div> <!--slider -->
+			</div><!--hero -->
+
+
 				<p>
 					Yes. We are a make believe space company living in a real virtual made up universe. You may ask, what universe? And to that question is an easy answer: <a href="https://kerbalspaceprogram.com/" target="New Window">The Kerbal Space Program Universe!</a> 
 					<br>

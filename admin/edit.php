@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <?php
 
+include './checkLogin.php';
+
 if(isset($_POST['submit']))
 {
 	$page = $_GET['page'];
@@ -63,20 +65,22 @@ else {
 ?>
 <html>
 <head>
-	<title>Chris Bischke -- Homework 2</title>
+	<title>edit</title>
 	<meta charset="UTF-8">
 	
-	<script src="util.js"></script>
+	<script src="./util.js"></script>
 	
 
-		<link rel="stylesheet" href="stylesheet.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="./stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="../style.css">
 	<script src="./parser_rules/advanced.js" ></script>
     <script src="./dist/wysihtml5-0.3.0.js" ></script>
 </head>
 <body>
+
+	<?php include './menu.php';?>
 	
-	<form action="testpage.php?page=<?=$page;?>" method="post">
+	<form action="edit.php?page=<?=$page;?>" method="post">
 	<div id="bodyContainer">
 	<div id="wysihtml5-editor-toolbar">
 	      <header>
@@ -125,7 +129,7 @@ else {
 		
       var editor = new wysihtml5.Editor("wysihtml5-editor", {
         toolbar:     "wysihtml5-editor-toolbar",
-        stylesheets: ["http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", "css/editor.css"],
+        stylesheets: ["http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", "editor.css"],
         parserRules: wysihtml5ParserRules
       });
       

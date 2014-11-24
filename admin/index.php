@@ -15,7 +15,7 @@ mysql_close($con);
 <body>
 	<div id="bodyContainer">
 
-		<?php include '../menu.php';?>
+		<?php include './menu.php';?>
 		
 		<div class="clear"></div>
 		<div id="mainBody">
