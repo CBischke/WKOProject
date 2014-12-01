@@ -82,7 +82,7 @@ else {
 	<?php include './menu.php';?>
 	
 	<div class="clear"></div>
-	<div id="mainBody">
+	<div id="editMainBody">
 	
 	<div class="clear"></div>
 	
