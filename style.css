@@ -112,6 +112,7 @@ a {
 		text-decoration: none;
 		/*display: block;*/
 		width: auto;
+		border: 1px solid transparent;
 	}
 	.menuButtons a:hover{
 		background: #DC3535;
