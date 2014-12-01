@@ -85,7 +85,7 @@ else {
 	<div id="mainBody">
 	
 	<div class="clear"></div>
-	<div class="mainCenter">
+	
 	
 	<form action="edit.php?page=<?=$page;?>" method="post">
 	<div id="bodyContainer">
@@ -131,7 +131,7 @@ else {
    
    <input type="submit" value="Submit form" name="submit">
    </form>
-   </div>
+   
    </div>
    </div>
     <script>
