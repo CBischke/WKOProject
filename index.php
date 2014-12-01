@@ -39,22 +39,20 @@
 						<div class="items">
 							<img src="./slideShow/img/homeImg.jpg" alt="slide2">
 							<div class="info">
-								<h2>test</h2>
-								<p>info</p>
+								<h2>TITLE</h2>
+								<p>Look at all this info about this pic</p>
 						     </div> <!--info -->
 					    </div> <!--item -->
 								
 						<div class="items">
-					
 							<img src="./slideShow/img/homeImg.jpg" alt="slide2" >
-					
 							<div class="info">
-								<h2>test</h2>
-								<p>more info</p>
+								<h2>TITLE 2</h2>
+								<p>Look at all of this info about this cool pic</p>
 							</div> <!--info -->
 						</div> <!--item -->
 					</div> <!--slider -->
-			</div><!--hero -->
+				</div><!--hero -->
 
 
 				<p>
