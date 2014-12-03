@@ -23,7 +23,7 @@
 
 <html>
 <head>
-	<title>Chris Bischke -- Homework 2</title>
+	<title>WKO</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="util.js"></script>
@@ -54,7 +54,7 @@
 		<div class="clear"></div>
 		<div id="mainBody">
 			<div class="mainCenter">
-				<h2>Whole Kids Outreach</h2>
+				<h1>Whole Kids Outreach</h1>
 
 				<div id="hero">
 					<div id="slider">
