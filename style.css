@@ -152,22 +152,17 @@ a {
 	  display: block; 
 	  color: #fff;
 	  text-shadow: 0 -1px 0 #000;
-	  width: 250px;
+	  width: 245px;
 	  padding-top: 10px;
 	  padding-bottom: 10px;
 	  padding-left: 5px;
 	  margin: 0;
 	}
 
-	.menuButtons ul li ul li a{
-	
-	}
-	
 	.menuButtons ul li ul li:hover{ background: blue; }
 	
 	.menuButtons ul li ul li:hover ul li a{
 		background: #DC3535;
-		border-style: solid;
 		border-radius: 5px;
 		border: 1px solid #DC3535;
 		background-image: -webkit-linear-gradient(top, #DC3535, #BB2929);
@@ -186,10 +181,12 @@ a {
 	.menuButtons ul li:hover ul {
 	  display: block;
 	  background: #555; 
-	  margin-top: 10px;
+	  margin-top: 7px;
 	  left: 0;
 	  opacity: 1;
 	  visibility: visible;
+	  border: 1px solid #555;
+	  border-radius: 5px;
 	}
 	
 	
