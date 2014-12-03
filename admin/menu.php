@@ -4,9 +4,7 @@
 		<!--<img src="./img/logo.png" alt ="logo">-->
 	</div>
 	<div id="menuRight">
-		<form method="get" action="donate.php">
-			<button>DONATE</button>
-		</form>
+		
 		<a href="https://www.facebook.com/wholekidsoutreach"><img src="./img/f-logo.png" alt ="facebook page" height="35px" width="35px"></a>
 	</div>
 	<div class="clear"></div>
@@ -18,7 +16,7 @@
 				<li><a href="edit.php?page=History">History</a></li>
 				<li><a href="edit.php?page=HomePrograms">HomePrograms</a></li>
 				<li><a href="edit.php?page=CenterPrograms">CenterPrograms</a></li>
-				<li><a href="edit.php?page=TestimonyPrograms">TestimonyPrograms</a></li>
+				
 				<li><a href="edit.php?page=Parents">Parents</a></li>
 				<li><a href="edit.php?page=Kids">Kids</a></li>
 				<li><a href="edit.php?page=Volunteer">Volunteer</a></li>

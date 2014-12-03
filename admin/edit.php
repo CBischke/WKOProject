@@ -129,7 +129,7 @@ else {
 	</div>
 	   
    
-   <input type="submit" value="Submit form" name="submit">
+   <input type="submit" value="Submit form" name="submit"> Welcome <?=$username?> | <a href="./processLogout.php">Logout</a>
    </form>
    
    </div>

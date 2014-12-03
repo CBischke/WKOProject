@@ -1,4 +1,7 @@
 <div id="footer">
-	<p>THIS IS A FOOTER</p>
-	<span id="secret">THIS IS A SPAN IN A FOOTER</span>
+	<p>THIS IS A FOOTER 12/4/2014</p>
+			<form method="post" action="login.php">
+			<button>Login</button>
+		</form>
+	
 </div>
