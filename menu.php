@@ -26,8 +26,8 @@
 				<li>
 					<a href="#">Program & Services</a>
 					<ul>
-						<li><a href="wko.php?p=HomePrograms">HomePrograms</a></li>
-						<li><a href="wko.php?p=CenterPrograms">CenterPrograms</a></li>
+						<li><a href="wko.php?p=HomePrograms">Home Programs</a></li>
+						<li><a href="wko.php?p=CenterPrograms">Center Programs</a></li>
 					</ul>
 				</li>
 				<li>
