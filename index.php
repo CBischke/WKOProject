@@ -59,7 +59,7 @@
 				<div id="hero">
 					<div id="slider">
 						<div class="items">
-							<img src="./slideShow/img/homeImg.jpg" alt="slide2">
+							<img src="./slideShow/img/0.jpg" alt="slide2">
 							<div class="info">
 								<h2>TITLE</h2>
 								<p>Look at all this info about this pic</p>
@@ -67,7 +67,7 @@
 					    </div> <!--item -->
 								
 						<div class="items">
-							<img src="./slideShow/img/homeImg.jpg" alt="slide2" >
+							<img src="./slideShow/img/1.jpg" alt="slide2" >
 							<div class="info">
 								<h2>TITLE 2</h2>
 								<p>Look at all of this info about this cool pic</p>
