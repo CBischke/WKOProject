@@ -24,7 +24,7 @@ mysql_close($con);
 			</div>
 		</div>
 		<div class="clear"></div>
-		<?php include '../footer.php';?>
+	
 	</div>
 </body>
 </html>
