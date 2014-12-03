@@ -4,7 +4,7 @@
 		<!--<img src="./img/logo.png" alt ="logo">-->
 	</div>
 	<div id="menuRight">
-		<form method="get" action="donate.php">
+		<form method="get" action="wko.php?p=Donate">
 			<button>DONATE</button>
 		</form>
 		<a href="https://www.facebook.com/wholekidsoutreach"><img src="./img/f-logo.png" alt ="facebook page"></a>
