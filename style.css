@@ -91,6 +91,7 @@ a {
 	margin: auto;
 
 }
+
 	.menuButtons ul{
 		margin: auto;
 		display: table;
@@ -117,14 +118,7 @@ a {
 	}
 	.menuButtons ul li a:hover{
 		background: #DC3535;
-		border-style: solid;
-		border-radius: 5px;
-		border: 1px solid #DC3535;
-		background-image: -webkit-linear-gradient(top, #DC3535, #BB2929);
-		background-image: -moz-linear-gradient(top, #DC3535, #BB2929);
-		background-image: -ms-linear-gradient(top, #DC3535, #BB2929);
-		background-image: -o-linear-gradient(top, #DC3535, #BB2929);
-		background-image: linear-gradient(to bottom, #DC3535, #BB2929);
+
 		text-decoration: none;
 		/*display: block;*/
 	}
@@ -134,7 +128,7 @@ a {
 	  position: absolute;
 	  /*top: 48px;*/
 	  left: 0;
-	  width: 230px;
+	  width: 220px;
 	  -webkit-box-shadow: none;
 	  -moz-box-shadow: none;
 	  box-shadow: none;
@@ -152,46 +146,36 @@ a {
 	  display: block; 
 	  color: #fff;
 	  text-shadow: 0 -1px 0 #000;
-	  width: 222px;
+	  width: 215px;
 	  padding-top: 10px;
 	  padding-bottom: 10px;
 	  padding-left: 5px;
 	  margin: 0;
-	  border: 1px solid #555;
-	  border-radius: 5px;
 	}
+	
+	.menuButtons ul li ul li a{
+		background: #3498db;
+		width: 215px;
+	}
+	
 
-	.menuButtons ul li ul li:hover{ background: blue; }
-	
-	.menuButtons ul li ul li:hover ul li a{
-		background: #DC3535;
-		border-radius: 5px;
-		border: 1px solid #DC3535;
-		background-image: -webkit-linear-gradient(top, #DC3535, #BB2929);
-		background-image: -moz-linear-gradient(top, #DC3535, #BB2929);
-		background-image: -ms-linear-gradient(top, #DC3535, #BB2929);
-		background-image: -o-linear-gradient(top, #DC3535, #BB2929);
-		background-image: linear-gradient(to bottom, #DC3535, #BB2929);
-		text-decoration: none;
-	}
-	
-	.menuButtons ul li ul li a:hover{
-	background: blue;
-	border: 1px solid transparent;
-	}
+	.menuButtons ul li ul li:hover{ background: #DC3535; }
 
 	.menuButtons ul li:hover ul {
 	  display: block;
-	  background: #555; 
-	  margin-top: 7px;
+	  background: #3498db; 
+	  margin-top: 8px;
 	  left: 0;
 	  opacity: 1;
 	  visibility: visible;
-	  border: 1px solid #555;
-	  border-radius: 5px;
+
 	}
-	
-	
+	.menuButtons ul li:hover > a{
+		background: #DC3535;
+		text-decoration: none;
+	}
+		
+
 
 .clear {
 	clear: both;
