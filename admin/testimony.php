@@ -61,8 +61,6 @@ $results = mysql_query($query, $con);
 	  	$name = $pageInfo['Name'];
 	  	$id = $pageInfo['ID'];
   	?>
-  	
-  	<h2>Leave your own Review</h2>
 
 		<form class='generalForm' enctype='multipart/form-data' action='' method='POST'>
 			<p><?=$name?></p>

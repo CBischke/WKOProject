@@ -64,6 +64,7 @@ $result = mysql_query($query, $con);
 
 			</div>
 			<div class = "mainCenter">
+				<h2>Leave your own Review</h2>
 				<p id="error"><?=$error?></p>
 				<form class="generalForm" action = "" method="POST">
 					<p>Name:</p> 
