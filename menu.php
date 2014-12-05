@@ -26,6 +26,7 @@
 					<ul>
 						<li><a href="wko.php?p=HomePrograms">Home Programs</a></li>
 						<li><a href="wko.php?p=CenterPrograms">Center Programs</a></li>
+						<li><a href="testimony.php">Testimony</a></li>
 					</ul>
 				</li>
 				<li>
