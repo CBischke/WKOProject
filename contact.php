@@ -44,7 +44,7 @@ if(isset($_POST['send']))
 ?>
 <html>
 <head>
-	<title>Chris Bischke -- Homework 2</title>
+	<title>Contact Us</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
