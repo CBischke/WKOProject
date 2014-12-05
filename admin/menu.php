@@ -5,7 +5,7 @@
 	</div>
 	<div id="menuRight">
 		
-		<a href="https://www.facebook.com/wholekidsoutreach"><img src="./img/f-logo.png" alt ="facebook page" height="35px" width="35px"></a>
+		<a href="https://www.facebook.com/wholekidsoutreach"><img src="./img/f-logo.png" alt ="facebook page"></a>
 	</div>
 	<div class="clear"></div>
 	<div class="menuButtonContainer">
