@@ -165,15 +165,12 @@ a {
 	background-image: linear-gradient(to bottom, #DC3535, #BB2929);
 	text-decoration: none;
 }
-.menuButtons ul li ul li: hover ul li ul{
-border-top: 0;
-border-left: 0;
-}
+
 .menuButtons ul li:hover ul {
     display: block;
 	width: 205px;
 	background: #3498db; 
-	border: 1px solid #3498db;
+	border: 1px solid transparent;
 	border-radius: 5px;
 	margin-top: 8px;
 	left: 0;
@@ -184,7 +181,7 @@ border-left: 0;
 		background: #DC3535;
 		border-style: solid;
 		border-radius: 5px;
-		border: 1px solid #DC3535;
+		border: 1px solid transparent;
 		background-image: -webkit-linear-gradient(top, #DC3535, #BB2929);
 		background-image: -moz-linear-gradient(top, #DC3535, #BB2929);
 		background-image: -ms-linear-gradient(top, #DC3535, #BB2929);
@@ -219,13 +216,10 @@ border-left: 0;
 	width: 900px;
 	margin-top: 25px;
 	margin-bottom: 25px;
-
 	border-style: solid;
 	border-radius: 10px;
 	border-width: 15px;
 	border-color: #FFF6E5;
-
-	/*background-color: #F2E394;*/
 	background-color: #FFF6E5;
 	float: left;
 }
