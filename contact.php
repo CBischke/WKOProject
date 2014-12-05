@@ -56,6 +56,7 @@ if(isset($_POST['send']))
 		<div class="clear"></div>
 		<div id="mainBody">
 			<div class="mainCenter">
+			<h1>Contact Us</h1><hr>
 				<p id="error"><?=$error?></p>
 				<form class="generalForm" method="POST">
 					<p>Name:</p> 
@@ -76,7 +77,7 @@ if(isset($_POST['send']))
 					  <option value="no">No</option>
 					</select>
 					<br>
-					<input type="submit" value="send" name="send"><br/>
+					<input type="submit" value="Send" name="Send"><br/>
 				</form>
 			</div>
 		</div>
