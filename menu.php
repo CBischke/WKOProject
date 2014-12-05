@@ -13,38 +13,36 @@
 	<div class="menuButtonContainer">
 		<div class="menuButtons">
 			<ul>
-				<li><a href="index.php">Home</a></li>
-		
-						
+				<li><a class="parent" href="index.php">Home</a></li>	
 				<li>
-					<a href="#">About</a>
+					<a class="parent" href="#">About</a>
 					<ul>
 						<li><a href="wko.php?p=History">History</a></li>
 						<li><a href="wko.php?p=Team">Team</a></li>
 					</ul>
 				</li>
 				<li>
-					<a href="#">Program & Services</a>
+					<a class="parent" href="#">Program & Services</a>
 					<ul>
 						<li><a href="wko.php?p=HomePrograms">Home Programs</a></li>
 						<li><a href="wko.php?p=CenterPrograms">Center Programs</a></li>
 					</ul>
 				</li>
 				<li>
-					<a href="#">Parents and Kids</a>
+					<a class="parent" href="#">Parents and Kids</a>
 					<ul>
 						<li><a href="wko.php?p=Parents">Parents</a></li>
 						<li><a href="wko.php?p=Kids">Kids</a></li>
 					</ul>
 				</li>
 				<li>
-					<a href="#">Help Now</a>
+					<a class="parent" href="#">Help Now</a>
 					<ul>
 						<li><a href="wko.php?p=Volunteer">Volunteer</a></li>
 						<li><a href="wko.php?p=Donate">Donate</a></li>
 					</ul>
 				</li>
-				<li><a href="contact.php">Contact</a></li>
+				<li><a class="parent" href="contact.php">Contact</a></li>
 			</ul>
 		</div>
 	</div>
