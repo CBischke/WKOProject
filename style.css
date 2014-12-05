@@ -28,8 +28,10 @@ a {
 	float: left;
 }
 #menuLogo {
-	width: 300px;
+	width: 500px;
 	float: left;
+	font-family: Josefin Slab;
+	font-size: 24pt;
 }
 #menuRight {
 	width: auto;
@@ -73,7 +75,6 @@ a {
 .menuButtonContainer{
 	width: 900px;
 	float: left;
-	margin-top: 20px;
 	border-radius: 5px;
 	border: 1px solid #3498db;
 	background: #3cb0fd;
@@ -270,6 +271,16 @@ a {
 	background: #FFF6E5;
 	font-size: 10px;
 	float: left; 
+}
+
+#footer button{
+	width:100;
+	cursor:pointer; 
+	color: white;
+	font-weight: bold;
+	background: #3498db;
+	border: 1px solid #3498db;
+	border-radius: 10px;
 }
 
 .question{
